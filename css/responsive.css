@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1024px) {
+  .About .about-img {
+    width: 100%;
+  }
+  .Projects .card img {
+    height: 370px;
+  }
+  .Contact .text-Contact {
+    height: 550px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  svg text {
+    font-size: 50px;
+  }
+  /* -------- navbar -------------- */
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width) #fff !important;
+  }
+  .navbar-toggler {
+    border: solid 1px #fff !important;
+  }
+  .navbar.navbar-expand-lg .navbar-toggler .fa-solid {
+    color: #fff;
+  }
+  .nav-link:focus-visible {
+    box-shadow: 0 0 0 0 !important;
+  }
+  .nav-link:focus,
+  .nav-link:hover {
+    color: #db671a !important;
+  }
+
+  /* -------- header -------------- */
+  header .text-heder {
+    justify-content: flex-start;
+    align-items: center;
+  }
+  header .img-header .img {
+    width: 71%;
+  }
+
+  /* -------- About -------------- */
+  .About .about-img {
+    width: 70%;
+    margin: 15px;
+  }
+  .About .text-About .text {
+    padding: 15px;
+  }
+
+  /* -------- Projects -------------- */
+  .Projects .card {
+    margin-bottom: 15px;
+  }
+
+  /* -------- Contact -------------- */
+  .Contact form {
+    padding: 15px 10px;
+  }
+
+  footer .row .fa {
+    font-size: 17px;
+    padding: 5px;
+  }
+  footer .col-lg-3.col-12 {
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* .row {
+    max-width: 100%;
+  } */
+  /* ------- preloader ------- */
+  svg text {
+    font-size: 50px;
+  }
+  /* -------- NavBar -------------- */
+  .bg-body-tertiary .navbar-brand {
+    width: 45%;
+  }
+
+  /* -------- header -------------- */
+  header .text-heder {
+    justify-content: center;
+  }
+
+  /* -------- About -------------- */
+  .About .about-img {
+    width: 95%;
+  }
+  .About .text-About .text .p {
+    font-size: 15px;
+  }
+  /* -------- Skills -------------- */
+  .Skills .row .col-12 {
+    margin: 5px;
+  }
+
+  /* -------- Projects -------------- */
+  .Projects .card img {
+    height: 450px;
+    transform: rotate(0deg);
+  }
+
+  /* -------- Projects -------------- */
+  .Contact {
+    margin: 100px 0px !important;
+  }
+  .Contact .text-Contact {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /* ------- preloader ------- */
+  svg text {
+    font-size: 45px;
+  }
+  /* navbar */
+  .bg-body-tertiary .navbar-brand {
+    width: 50%;
+  }
+
+  /* About */
+  .About .about-img {
+    width: 100%;
+    margin: 0;
+  }
+  .About .text-About .text {
+    padding: 15px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* ------- preloader ------- */
+  /* header .text-heder {
+    padding-right: 3px;
+  } */
+
+  svg text {
+    font-size: 40px;
+  }
+  .bg-body-tertiary .navbar-brand {
+    width: 57%;
+  }
+  /* Projects */
+  .Projects .card img {
+    height: 375px;
+  }
+  .Projects .btn {
+    padding: 5px 12px;
+  }
+
+  /* Contact */
+  .Contact .text-Contact {
+    height: 400px;
+  }
+  .Contact p {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,176 @@
+      <!-- Skills -->
+      <section class="">
+        <h2 class="title">Skills</h2>
+
+        <div class="row">
+          <!-- html -->
+          <div class="col-6">
+            <div class="skills-item css">
+              <div class="skills-name">
+                <h6>HTML5</h6>
+                <h6>95%</h6>
+              </div>
+              <div class="Range">
+                <div class="Range-item html"></div>
+              </div>
+            </div>
+          </div>
+          <!-- css -->
+          <div class="col-6">
+            <div class="skills-item">
+              <div class="skills-name">
+                <h6>CSS3</h6>
+                <h6>90%</h6>
+              </div>
+              <div class="Range">
+                <div class="Range-item css"></div>
+              </div>
+            </div>
+          </div>
+          <!-- js -->
+          <div class="col-6">
+            <div class="skills-item">
+              <div class="skills-name">
+                <h6>JAVASCRIPT</h6>
+                <h6>70%</h6>
+              </div>
+              <div class="Range">
+                <div class="Range-item js"></div>
+              </div>
+            </div>
+          </div>
+          <!-- bootstrap -->
+          <div class="col-6">
+            <div class="skills-item">
+              <div class="skills-name">
+                <h6>Bootstrap</h6>
+                <h6>95%</h6>
+              </div>
+              <div class="Range">
+                <div class="Range-item bootstrap"></div>
+              </div>
+            </div>
+          </div>
+          <!-- jQuery -->
+          <div class="col-6">
+            <div class="skills-item">
+              <div class="skills-name">
+                <h6>jQuery</h6>
+                <h6>70%</h6>
+              </div>
+              <div class="Range">
+                <div class="Range-item jQuery"></div>
+              </div>
+            </div>
+          </div>
+          <!-- React -->
+          <div class="col-6">
+            <div class="skills-item">
+              <div class="skills-name">
+                <h6>React.js</h6>
+                <h6>65%</h6>
+              </div>
+              <div class="Range">
+                <div class="Range-item react"></div>
+              </div>
+            </div>
+          </div>
+          <!-- WordPress -->
+          <div class="col-6">
+            <div class="skills-item">
+              <div class="skills-name">
+                <h6>WordPress</h6>
+                <h6>65%</h6>
+              </div>
+              <div class="Range">
+                <div class="Range-item WordPress"></div>
+              </div>
+            </div>
+          </div>
+          <!-- php -->
+          <div class="col-6">
+            <div class="skills-item">
+              <div class="skills-name">
+                <h6>php</h6>
+                <h6>45%</h6>
+              </div>
+              <div class="Range">
+                <div class="Range-item php"></div>
+              </div>
+            </div>
+          </div>
+          <!-- my sql -->
+          <div class="col-6">
+            <div class="skills-item">
+              <div class="skills-name">
+                <h6>My SQL</h6>
+                <h6>50%</h6>
+              </div>
+              <div class="Range">
+                <div class="Range-item my-sql"></div>
+              </div>
+            </div>
+          </div>
+          <!-- my sql -->
+          <div class="col-6">
+            <div class="skills-item">
+              <div class="skills-name">
+                <h6>(ICDL) Microsoft Office</h6>
+                <h6>95%</h6>
+              </div>
+              <div class="Range">
+                <div class="Range-item Office"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skills -->
+
+	
+/* .Skills .row .col-6 {
+  padding: 15px 5px;
+}
+.Skills .skills-name {
+  display: flex;
+  justify-content: space-between;
+}
+.Skills .Range {
+  background-color: #cfcfcf;
+  height: 10px;
+  border-radius: 5px;
+}
+.Skills .Range-item {
+  height: 100%;
+  background-color: #c4c1a4;
+}
+.Skills .Range-item.html {
+  width: 95%;
+}
+.Skills .Range-item.css {
+  width: 90%;
+}
+.Skills .Range-item.js {
+  width: 70%;
+}
+.Skills .Range-item.jQuery {
+  width: 70%;
+}
+.Skills .Range-item.bootstrap {
+  width: 95%;
+}
+.Skills .Range-item.react {
+  width: 65%;
+}
+.Skills .Range-item.WordPress {
+  width: 65%;
+}
+.Skills .Range-item.php {
+  width: 45%;
+}
+.Skills .Range-item.my-sql {
+  width: 50%;
+}
+.Skills .Range-item.Office {
+  width: 95%;
+} */
