@@ -30,3 +30,11 @@ $(document).ready(function () {
   });
 });
 /* -------------- scroll-up ------------- */
+let Nav = document.getElementById("mainNav");
+window.onscroll = () => {
+  if (scrollY >= 450) {
+    Nav.classList.add("fixed");
+  } else {
+    Nav.classList.remove("fixed");
+  }
+};
