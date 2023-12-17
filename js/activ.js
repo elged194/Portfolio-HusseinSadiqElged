@@ -1,3 +1,5 @@
+
+"use strict"
 /* -------------- preloader ------------- */
 $(document).ready(function () {
   // Add 'no-scroll' class to body
@@ -30,11 +32,21 @@ $(document).ready(function () {
   });
 });
 /* -------------- scroll-up ------------- */
+
+/* -------------- NavBar ------------- */
+
 let Nav = document.getElementById("mainNav");
+let lastScrollPos = 0;
+
 window.onscroll = () => {
-  if (scrollY >= 450) {
-    Nav.classList.add("fixed");
-  } else {
+  if (scrollY < 400) {
     Nav.classList.remove("fixed");
+  } else if (scrollY > lastScrollPos) {
+    Nav.classList.remove("fixed");
+  } else {
+    Nav.classList.add("fixed");
   }
+
+  lastScrollPos = scrollY;
 };
+/* -------------- NavBar ------------- */
