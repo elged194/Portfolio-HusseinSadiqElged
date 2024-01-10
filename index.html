@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <!-- bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-
+    <!-- animate -->
+    <link rel="stylesheet" href="css/animate.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
@@ -25,7 +26,7 @@
     <!-- -------- -->
 
     <!-- Preloader -->
-    <div class="preloader">
+    <!-- <div class="preloader">
       <div class="wrapper">
         <svg>
           <text x="50%" y="50%" dy=".35em" text-anchor="middle">
@@ -33,13 +34,15 @@
           </text>
         </svg>
       </div>
-    </div>
+    </div> -->
     <!-- Preloader -->
 
     <!-- Start NavBar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" id="mainNav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="logo.png" alt="" /></a>
+        <a class="navbar-brand wow fadeInLeft" href="#"
+          ><img src="logo.png" alt=""
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -51,12 +54,16 @@
         >
           <span class=""><i class="fa-solid fa-bars"></i></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div
+          class="collapse navbar-collapse wow fadeInRight"
+          id="navbarNavAltMarkup"
+        >
           <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#About">About</a>
+            <a class="nav-link" href="#Skills">Skills</a>
+            <a class="nav-link" href="#Projects">Projects</a>
+            <a class="nav-link" href="#Contact">Contact Me</a>
           </div>
         </div>
       </div>
@@ -68,20 +75,20 @@
       <div class="background-header"></div>
       <div class="row">
         <div class="col-md-6 col-sm-12 img-header">
-          <div class="img">
+          <div class="img wow fadeInLeft">
             <img src="img/New folder/IMG_٢٠٢٣١١٢٣_١٢٥٩٠٥-removebg.png" alt="" />
           </div>
         </div>
         <div class="col-md-6 col-sm-12 text-heder">
           <div class="text">
-            <h4 style="color: #fff">Hi, I'm</h4>
-            <h1>Hussein Sadiq Elged</h1>
-            <h3>Front End Developer</h3>
+            <h4 style="color: #fff" class="wow fadeInRight">Hi, I'm</h4>
+            <h1 class="wow fadeInRight">Hussein Sadiq Elged</h1>
+            <h3 class="wow fadeInRight">Front End Developer</h3>
             <div class="font">
-              <i class="fa fa-brands fa-linkedin"></i>
-              <i class="fa fa-brands fa-github"></i>
-              <i class="fa fa-solid fa-envelope"></i>
-              <i class="fa fa-brands fa-instagram"></i>
+              <i class="fa wow fadeInUp fa-brands fa-linkedin"></i>
+              <i class="fa wow fadeInUp fa-brands fa-github"></i>
+              <i class="fa wow fadeInUp fa-solid fa-envelope"></i>
+              <i class="fa wow fadeInUp fa-brands fa-instagram"></i>
             </div>
           </div>
         </div>
@@ -92,7 +99,7 @@
     <!-- container -->
     <div class="container">
       <!-- About -->
-      <section class="About">
+      <section class="About" id="About">
         <div class="row">
           <div class="col-lg-6 col-md-12 About-img">
             <div class="about-img">
@@ -145,9 +152,9 @@
               >
                 See More</a
               >
-              <!-- Modal -->
+              <!-- ---------------------- Modal -------------------------- -->
               <div
-                class="modal fade"
+                class="modal fade modal-lg"
                 id="staticBackdrop"
                 data-bs-backdrop="static"
                 data-bs-keyboard="false"
@@ -168,48 +175,96 @@
                         aria-label="Close"
                       ></button>
                     </div>
+                    <!-- modal-body -->
                     <div class="modal-body">
-                      <div class="row">
-                        <div class="col-6">
+                      <!--  -->
+                      <!-- <div class="row">
+                        <div class="col-12">
                           <p>
                             <i class="fa-solid fa-envelope"></i>
                             elged194@gmail.com
                           </p>
-                        </div>
-                        <div class="col-6">
                           <p><i class="fa-solid fa-phone"></i> 01098351052</p>
-                        </div>
-                        <div class="col-6">
                           <p>
-                            <i class="fa-solid fa-location-dot"></i> Cairo -
+                            <i class="fa-solid fa-location-dot"></i>Cairo -
                             Egypt
                           </p>
+                          <p>
+                            <i class="fa-brands fa-linkedin"></i>
+                            www.linkedin.com/in/hussein-sadiq-elged
+                          </p>
+                          <p>
+                            <i class="fa-solid fa-calendar-day"></i>07/03/1999
+                          </p>
+
+                          <p>
+                            <i class="fa-brands fa-github"></i
+                            >https://github.com/elged194
+                          </p>
+                          <p>
+                            <i class="fa-brands fa-upwork"></i
+                            >https://www.upwork.com/freelancers/~01ab826558761a9c07
+                          </p>
+                          <p>
+                            <i class="fa-brands fa-facebook"></i>
+                          </p>
                         </div>
-                        <div class="col-6">
-                          <a href="https://github.com/elged194"
-                            >https://github.com/elged194</a
-                          >
-                        </div>
-                        <div class="col-12">
-                          <a
-                            href="https://www.linkedin.com/in/hussein-sadiq-elged-61973422b/"
-                          >
-                            <i class="fa-brands fa-linkedin-in"></i>
-                            https://www.linkedin.com/in/hussein-sadiq-elged-61973422b/
-                          </a>
-                        </div>
-                        <div class="col-3">
-                          <p>Egyptian</p>
-                        </div>
-                        <div class="col-3">
-                          <p>07/03/1999</p>
-                        </div>
-                        <div class="col-2">
-                          <p>single</p>
-                        </div>
-                        <div class="col-2">
-                          <p>male</p>
-                        </div>
+                      </div> -->
+
+                      <!-- Education -->
+                      <div class="row Education">
+                        <hr />
+                        <h4>
+                          Education <i class="fa-solid fa-graduation-cap"></i>
+                        </h4>
+                        <hr />
+                        <h5>Bachelor of Information Systems - 2022</h5>
+                        <p>
+                          Misr Higher Institute of Engineering and Technology -
+                          Mansoura, Dakahlia
+                        </p>
+                      </div>
+
+                      <div class="row Skills">
+                        <hr />
+                        <h4>Skills <i class="fa-solid fa-brain"></i></h4>
+                        <hr />
+                        <h5>Front End Developer</h5>
+
+                        <p>
+                          (HTML5 - CSS3 - JavaScript - Jquery - Bootstrap -
+                          Reqct.js)
+                        </p>
+                        <h5>(ICDL) Microsoft Office</h5>
+
+                        <p>(Word - Excel - PowerPoint - Access)</p>
+                        <h5>I have Knowledge About Them</h5>
+
+                        <p>(php - my SQL)</p>
+                      </div>
+
+                      <div class="row Courses">
+                        <hr />
+                        <h4>Courses <i class="fa-solid fa-list-check"></i></h4>
+                        <hr />
+                        <h5>Front End Developer - 2020</h5>
+                        <p>
+                          (HTML-HTML5 , CSS-CSS3 , JAVA SCRIPT , BOOTSTRA ,
+                          JQUERY , React.JS )
+                        </p>
+
+                        <h5>English - 2023</h5>
+                      </div>
+
+                      <div class="row Experience">
+                        <hr />
+                        <h4>
+                          Professional Experience
+                          <i class="fa-solid fa-briefcase"></i>
+                        </h4>
+                        <hr />
+                        <h5>FreeLance - Cairo,Egypt</h5>
+                        <p>Front End Developer - 2021-2023</p>
                       </div>
                     </div>
                     <div class="modal-footer">
@@ -227,7 +282,7 @@
                   </div>
                 </div>
               </div>
-              <!-- Modal -->
+              <!-- ---------------- Modal ------------------- -->
             </div>
           </div>
         </div>
@@ -235,30 +290,43 @@
       <!-- About -->
 
       <!-- Skills -->
-      <section class="Skills">
-        <h2 class="title">Skills</h2>
+      <section class="Skills" id="Skills">
         <div class="row">
-          <!--  -->
+          <h2 class="title">Skills</h2>
+          <!-- HTML -->
           <div class="col-md-4 col-12">
             <div class="item">
               <i class="fa-brands fa-html5"></i>
               <div class="ms-2">
                 <p><b>HTML</b></p>
-                <p>lorrm</p>
+                <p>Expert</p>
               </div>
             </div>
           </div>
-          <!--  -->
+
+          <!-- css -->
           <div class="col-md-4 col-12">
             <div class="item">
               <i class="fa-brands fa-css3-alt"></i>
               <div class="ms-2">
                 <p><b> CSS </b></p>
-                <p>lorrm</p>
+                <p>Expert</p>
               </div>
             </div>
           </div>
-          <!--  -->
+
+          <!-- Bootstrap -->
+          <div class="col-md-4 col-12">
+            <div class="item">
+              <i class="fa-brands fa-bootstrap"></i>
+              <div class="ms-2">
+                <p><b> Bootstrap </b></p>
+                <p>Expert</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- JavaScript -->
           <div class="col-md-4 col-12">
             <div class="item">
               <i class="fa-brands fa-node-js"></i>
@@ -268,27 +336,31 @@
               </div>
             </div>
           </div>
-          <!--  -->
+
+          <!-- jQuery -->
           <div class="col-md-4 col-12">
             <div class="item">
-              <i class="fa-brands fa-bootstrap"></i>
-              <div class="ms-2">
-                <p><b> Bootstrap </b></p>
-                <p>lorrmlorrm</p>
-              </div>
-            </div>
-          </div>
-          <!--  -->
-          <div class="col-md-4 col-12">
-            <div class="item">
-              <i class="fa-regular fa-file-code"></i>
+              <!-- <i class="fa-regular fa-file-code"></i> -->
+              <i class="fa-brands fa-node-js"></i>
               <div class="ms-2">
                 <p><b> jQuery </b></p>
                 <p>lorrmlorrm</p>
               </div>
             </div>
           </div>
-          <!--  -->
+
+          <!-- JSON -->
+          <div class="col-md-4 col-12">
+            <div class="item">
+              <i class="fa-brands fa-node-js"></i>
+              <div class="ms-2">
+                <p><b> JSON </b></p>
+                <p>lorrmlorrm</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- React.js -->
           <div class="col-md-4 col-12">
             <div class="item">
               <i class="fa-brands fa-react"></i>
@@ -333,7 +405,7 @@
       <!-- Skills -->
 
       <!-- Projects -->
-      <section class="Projects">
+      <section class="Projects" id="Projects">
         <h2 class="title"><span> Our </span> Projects</h2>
         <div class="row">
           <!-- VIX Template -->
@@ -435,6 +507,206 @@
                   class="btn bt"
                   data-bs-toggle="modal"
                   data-bs-target="#Lawyer"
+                  href=""
+                  >Go Viewing</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Reve Tive -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card">
+              <img
+                src="img/Projects/Reve Tive/1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card-title">
+                  <h5>Reve Tive.</h5>
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                </div>
+                <p class="card-text">
+                  A Reve Tive website to display the work carried out by the
+                  Reve Tive's office and the work team, and responsive screens
+                  are used on this website .
+                </p>
+                <a
+                  href="https://elged194.github.io/Lawyer-Template-/"
+                  class="btn"
+                  >GO Live Demo</a
+                >
+                <a
+                  class="btn bt"
+                  data-bs-toggle="modal"
+                  data-bs-target="#Lawyer"
+                  href=""
+                  >Go Viewing</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- CRUDS -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card">
+              <img
+                src="img/Projects/CRUDS/CRUDS1.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card-title">
+                  <h5>CRUDS.</h5>
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                </div>
+                <p class="card-text">
+                  A CRUDS website to display the work carried out by the CRUDS
+                  office and the work team, and responsive screens are used on
+                  this website .
+                </p>
+                <a
+                  href="https://elged194.github.io/Lawyer-Template-/"
+                  class="btn"
+                  >GO Live Demo</a
+                >
+                <a
+                  class="btn bt"
+                  data-bs-toggle="modal"
+                  data-bs-target="#CRUDS"
+                  href=""
+                  >Go Viewing</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- A Cook -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card">
+              <img
+                src="img/Projects/A Cook/1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card-title">
+                  <h5>A Cook.</h5>
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                </div>
+                <p class="card-text">
+                  A Cook website to display the work carried out by the A Cook
+                  office and the work team, and responsive screens are used on
+                  this website .
+                </p>
+                <a
+                  href="https://elged194.github.io/Lawyer-Template-/"
+                  class="btn"
+                  >GO Live Demo</a
+                >
+                <a
+                  class="btn bt"
+                  data-bs-toggle="modal"
+                  data-bs-target="#A-Cook"
+                  href=""
+                  >Go Viewing</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Div Drive -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card">
+              <img
+                src="img/Projects/div drive/1.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card-title">
+                  <h5>Div Drive.</h5>
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                </div>
+                <p class="card-text">
+                  A Div Drive website to display the work carried out by the Div
+                  Drive office and the work team, and responsive screens are
+                  used on this website .
+                </p>
+                <a
+                  href="https://elged194.github.io/Lawyer-Template-/"
+                  class="btn"
+                  >GO Live Demo</a
+                >
+                <a
+                  class="btn bt"
+                  data-bs-toggle="modal"
+                  data-bs-target="#Div-Drive"
+                  href=""
+                  >Go Viewing</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Bank -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card">
+              <img
+                src="img/Projects/Bank/1.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card-title">
+                  <h5>Electronic Bank .</h5>
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                </div>
+                <p class="card-text">
+                  A Bank website to display the work carried out by the Bank
+                  office and the work team, and responsive screens are used on
+                  this website .
+                </p>
+                <a
+                  href="https://elged194.github.io/Lawyer-Template-/"
+                  class="btn"
+                  >GO Live Demo</a
+                >
+                <a
+                  class="btn bt"
+                  data-bs-toggle="modal"
+                  data-bs-target="#Bank"
                   href=""
                   >Go Viewing</a
                 >
@@ -717,11 +989,411 @@
           </div>
         </div>
         <!-- ---------------------------- Lawyer --------------------------------------- -->
+
+        <!-- ---------------------------- CRUDS --------------------------------------- -->
+        <div
+          class="modal fade modal-xl"
+          id="CRUDS"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  CRUDS TEMPLATE
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <!--  -->
+              <div class="modal-body row">
+                <!-- Right-Bar -->
+                <div class="col-lg-4 col-12 Right-Bar">
+                  <div class="head-Nav">
+                    <!-- <i class="fa-solid fa-scale-balanced"></i> -->
+                    <h4 class="law">CRUDS template</h4>
+                  </div>
+
+                  <h5>About the project</h5>
+                  <p>
+                    "A lawyer's website is an online platform designed to
+                    showcase the legal services provided by the law firm and its
+                    team. The website features a responsive design, offering a
+                    user-friendly and convenient experience across various
+                    devices, including mobile phones and personal computers.
+                  </p>
+
+                  <h6>Key Features:</h6>
+                  <p>
+                    <b>Service Display:</b>
+                  </p>
+
+                  <p>
+                    <b>Information about the Lawyer and Team:</b>
+                  </p>
+
+                  <p>
+                    <b>Portfolio of Work:</b>
+                  </p>
+
+                  <p>
+                    <b>Forms and Documents:</b>
+                  </p>
+
+                  <b>Direct Contact:</b>
+
+                  <p>
+                    In this way, the website enhances transparency and effective
+                    communication between the lawyer and potential clients,
+                    providing an improved user experience across different
+                    devices."
+                  </p>
+
+                  <div class="tools">
+                    <h4>Tools</h4>
+                    <h6>HTML5</h6>
+                    <h6>CSS3</h6>
+                    <h6>JavaScript</h6>
+                    <h6>Bootstrap</h6>
+                    <h6>JQuery</h6>
+                  </div>
+                  <hr />
+                </div>
+
+                <!-- img-Nav -->
+                <div class="col-lg-8 col-12 img-Nav">
+                  <h4 class="mt-0">Home</h4>
+                  <img src="img/Projects/CRUDS/CRUDS1.jpeg" alt="" />
+                </div>
+              </div>
+              <!--  -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------------- CRUDS --------------------------------------- -->
+
+        <!-- ---------------------------- A-Cook --------------------------------------- -->
+        <div
+          class="modal fade modal-xl"
+          id="A-Cook"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  A-Cook TEMPLATE
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <!--  -->
+              <div class="modal-body row">
+                <!-- Right-Bar -->
+                <div class="col-lg-4 col-12 Right-Bar">
+                  <div class="head-Nav">
+                    <!-- <i class="fa-solid fa-scale-balanced"></i> -->
+                    <h4 class="law">A-Cook template</h4>
+                  </div>
+
+                  <h5>About the project</h5>
+                  <p>
+                    "A lawyer's website is an online platform designed to
+                    showcase the legal services provided by the law firm and its
+                    team. The website features a responsive design, offering a
+                    user-friendly and convenient experience across various
+                    devices, including mobile phones and personal computers.
+                  </p>
+
+                  <h6>Key Features:</h6>
+                  <p>
+                    <b>Service Display:</b>
+                  </p>
+
+                  <p>
+                    <b>Information about the Lawyer and Team:</b>
+                  </p>
+
+                  <p>
+                    <b>Portfolio of Work:</b>
+                  </p>
+
+                  <p>
+                    <b>Forms and Documents:</b>
+                  </p>
+
+                  <b>Direct Contact:</b>
+
+                  <p>
+                    In this way, the website enhances transparency and effective
+                    communication between the lawyer and potential clients,
+                    providing an improved user experience across different
+                    devices."
+                  </p>
+
+                  <div class="tools">
+                    <h4>Tools</h4>
+                    <h6>HTML5</h6>
+                    <h6>CSS3</h6>
+                    <h6>JavaScript</h6>
+                    <h6>Bootstrap</h6>
+                    <h6>JQuery</h6>
+                  </div>
+                  <hr />
+                </div>
+
+                <!-- img-Nav -->
+                <div class="col-lg-8 col-12 img-Nav">
+                  <h4 class="mt-0">Home</h4>
+                  <img
+                    src="img/Projects/A Cook/IMG_٢٠٢٤٠١١٠_١٣١٣١٢.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <!--  -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------------- A-Cook --------------------------------------- -->
+
+        <!-- ---------------------------- Div Drive --------------------------------------- -->
+        <div
+          class="modal fade modal-xl"
+          id="Div-Drive"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Div-Drive
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <!--  -->
+              <div class="modal-body row">
+                <!-- Right-Bar -->
+                <div class="col-lg-4 col-12 Right-Bar">
+                  <div class="head-Nav">
+                    <!-- <i class="fa-solid fa-scale-balanced"></i> -->
+                    <h4 class="law">Div Drive</h4>
+                  </div>
+
+                  <h5>About the project</h5>
+                  <p>
+                    "A lawyer's website is an online platform designed to
+                    showcase the legal services provided by the law firm and its
+                    team. The website features a responsive design, offering a
+                    user-friendly and convenient experience across various
+                    devices, including mobile phones and personal computers.
+                  </p>
+
+                  <h6>Key Features:</h6>
+                  <p>
+                    <b>Service Display:</b>
+                  </p>
+
+                  <p>
+                    <b>Information about the Lawyer and Team:</b>
+                  </p>
+
+                  <p>
+                    <b>Portfolio of Work:</b>
+                  </p>
+
+                  <p>
+                    <b>Forms and Documents:</b>
+                  </p>
+
+                  <b>Direct Contact:</b>
+
+                  <p>
+                    In this way, the website enhances transparency and effective
+                    communication between the lawyer and potential clients,
+                    providing an improved user experience across different
+                    devices."
+                  </p>
+
+                  <div class="tools">
+                    <h4>Tools</h4>
+                    <h6>HTML5</h6>
+                    <h6>CSS3</h6>
+                    <h6>JavaScript</h6>
+                    <h6>Bootstrap</h6>
+                    <h6>JQuery</h6>
+                  </div>
+                  <hr />
+                </div>
+
+                <!-- img-Nav -->
+                <div class="col-lg-8 col-12 img-Nav">
+                  <h4 class="mt-0">Home</h4>
+                  <img src="img/Projects/div drive/2.jpg" alt="" />
+                </div>
+              </div>
+              <!--  -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------------- Div Drive --------------------------------------- -->
+
+        <!-- ---------------------------- Bank --------------------------------------- -->
+        <div
+          class="modal fade modal-xl"
+          id="Bank"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Electronic Bank Representative TEMPLATE
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <!--  -->
+              <div class="modal-body row">
+                <!-- Right-Bar -->
+                <div class="col-lg-4 col-12 Right-Bar">
+                  <div class="head-Nav">
+                    <i class="fa-solid fa-building-columns"></i>
+
+                    <h4 class="law">Electronic Bank Representative template</h4>
+                  </div>
+
+                  <h5>About the project</h5>
+                  <p>
+                    "A lawyer's website is an online platform designed to
+                    showcase the legal services provided by the law firm and its
+                    team. The website features a responsive design, offering a
+                    user-friendly and convenient experience across various
+                    devices, including mobile phones and personal computers.
+                  </p>
+
+                  <h6>Key Features:</h6>
+                  <p>
+                    <b>Service Display:</b>
+                  </p>
+
+                  <p>
+                    <b>Information about the Lawyer and Team:</b>
+                  </p>
+
+                  <p>
+                    <b>Portfolio of Work:</b>
+                  </p>
+
+                  <p>
+                    <b>Forms and Documents:</b>
+                  </p>
+
+                  <b>Direct Contact:</b>
+
+                  <p>
+                    In this way, the website enhances transparency and effective
+                    communication between the lawyer and potential clients,
+                    providing an improved user experience across different
+                    devices."
+                  </p>
+
+                  <div class="tools">
+                    <h4>Tools</h4>
+                    <h6>HTML5</h6>
+                    <h6>CSS3</h6>
+                    <h6>JavaScript</h6>
+                    <h6>Bootstrap</h6>
+                    <h6>JQuery</h6>
+                  </div>
+                  <hr />
+                </div>
+
+                <!-- img-Nav -->
+                <div class="col-lg-8 col-12 img-Nav">
+                  <h4 class="mt-0">Home</h4>
+                  <img src="img/Projects/Bank/2.png" alt="" />
+                  <img src="img/Projects/Bank/4.jpg" alt="" />
+                  <img src="img/Projects/Bank/7.jpg" alt="" />
+                  <img src="img/Projects/Bank/3.jpeg" alt="" />
+                  <img src="img/Projects/Bank/5.jpg" alt="" />
+                  <img src="img/Projects/Bank/6.png" alt="" />
+                  <img src="img/Projects/Bank/8.png" alt="" />
+                  <img src="img/Projects/Bank/9.png" alt="" />
+                  <img src="img/Projects/Bank/10.png" alt="" />
+                </div>
+              </div>
+              <!--  -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------------- Bank --------------------------------------- -->
       </section>
       <!-- Projects -->
 
       <!-- Contact -->
-      <section class="Contact">
+      <section class="Contact" id="Contact">
         <div class="row">
           <!--  -->
           <div class="col-md-6 col-sm-12 Contact-lf">
@@ -844,6 +1516,8 @@
     <script src="js/activ.js"></script>
     <!-- bootstrap -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- wow -->
+    <script src="js/wow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 
     <!-- --------------------------------------------------------- -->

@@ -28,11 +28,14 @@ h1,
 h2 {
   font-family: "Russo One", sans-serif;
 }
-
+/* animated */
+.animated {
+  animation-delay: 1.5s;
+}
 /* --------------------------- preloader ------------------------------ */
 /* Add this CSS to disable scrolling when body has 'no-scroll' class */
 body.no-scroll {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
@@ -115,7 +118,7 @@ svg text {
 .bg-body-tertiary .nav-link {
   color: #fff;
   font-size: 20px;
-  font-weight: 700;
+  font-family: "Russo One", sans-serif;
 }
 .bg-body-tertiary .nav-link:hover {
   color: #db671a;
@@ -133,6 +136,9 @@ svg text {
 }
 #mainNav {
   transition: all 1s;
+}
+.nav-link:focus-visible {
+  box-shadow: none;
 }
 /* ------------ End NavBar ------------------ */
 
@@ -230,10 +236,30 @@ header .text-heder .font .fa {
   font-weight: bold;
   border: none;
 }
-
+.About .btn:hover {
+  background-color: transparent !important;
+  color: #495057;
+  border: 1px solid #495057;
+}
+/* modl */
+.About .modal .fa {
+  font-size: 30px;
+  color: #495057;
+}
+.About .modal .row h4 {
+  text-align: center;
+  margin: 0;
+}
+.About .modal .row .fa-solid {
+  font-size: 25px !important;
+}
+.About .modal .row hr {
+  margin: 7px 0 !important;
+}
 /* --------------- End About ------------- */
 
 /* --------------- Start Skills ---------- */
+
 .Skills .item {
   display: flex;
   align-items: center;
@@ -267,12 +293,16 @@ header .text-heder .font .fa {
   overflow: hidden;
   background-color: #495057;
   transition: all 1s;
+  margin: 8px 0;
 }
 .Projects .card img {
-  height: 450px;
-  opacity: 0.6;
-  transform: rotateZ(28deg);
+  opacity: 0.7;
+  object-fit: cover;
+  padding: 15px;
+  max-height: 250px;
+  min-height: 250px;
   transition: all 1s;
+  mix-blend-mode: hard-light;
 }
 .Projects .btn {
   background-color: #495057;
@@ -294,7 +324,7 @@ header .text-heder .font .fa {
 }
 .Projects .card .card-body {
   background-color: #fff;
-  margin-top: -120px;
+  /* margin-top: -120px; */
   z-index: 1;
   padding: 8px;
 }
@@ -324,6 +354,7 @@ header .text-heder .font .fa {
   border-bottom: 1px solid gray;
   padding: 10px 0;
   margin-bottom: 15px;
+  align-items: center;
 }
 .Projects .modal .Right-Bar .head-Nav h4 {
   margin: 0 5px;

@@ -1,18 +1,16 @@
-
-"use strict"
+"use strict";
 /* -------------- preloader ------------- */
-$(document).ready(function () {
-  // Add 'no-scroll' class to body
-  $("body").addClass("no-scroll");
-
-  // Delay the preloader and hide it
-  $(".preloader")
-    .delay(5000)
-    .fadeOut("slow", function () {
-      // Remove the 'no-scroll' class from the body
-      $("body").removeClass("no-scroll");
-    });
-});
+// $(document).ready(function () {
+//   // Add 'no-scroll' class to body
+//   $("body").addClass("no-scroll");
+//   // Delay the preloader and hide it
+//   $(".preloader")
+//     .delay(5000)
+//     .fadeOut("slow", function () {
+//       // Remove the 'no-scroll' class from the body
+//       $("body").removeClass("no-scroll");
+//     });
+// });
 /* -------------- preloader ------------- */
 
 /* -------------- scroll-up ------------- */
@@ -39,7 +37,7 @@ let Nav = document.getElementById("mainNav");
 let lastScrollPos = 0;
 
 window.onscroll = () => {
-  if (scrollY < 400) {
+  if (scrollY < 100) {
     Nav.classList.remove("fixed");
   } else if (scrollY > lastScrollPos) {
     Nav.classList.remove("fixed");
@@ -50,3 +48,42 @@ window.onscroll = () => {
   lastScrollPos = scrollY;
 };
 /* -------------- NavBar ------------- */
+
+/* -------------- WOW ------------- */
+function quantityChanged(event) {
+  var input = event.target;
+  if (isNaN(input.value) || input.value <= 0) {
+    input.value = 1;
+  }
+  updatetotel();
+}
+// WOW js
+document.addEventListener("DOMContentLoaded", function () {
+  new WOW().init();
+});
+/* -------------- WOW ------------- */
+
+/* -------------- Skills width ------------- */
+$(() => {
+  if ($(window).width() > 768) {
+    $(".Skills").height($(window).height()).css({
+      margin: "0",
+      display: "flex",
+      flexWrap: "wrap",
+      justifyContent: " center",
+      alignItems: "center",
+    });
+  }
+
+  $(window).resize(() => {
+    if ($(window).width() > 768) {
+      $(".Skills").height($(window).height()).css({
+        margin: "0",
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: " center",
+        alignItems: "center",
+      });
+    }
+  });
+});
