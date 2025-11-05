@@ -636,25 +636,6 @@ the props
     ],
   },
 
-  // اصيل
-  {
-    id_name: "asil",
-    title: "اصيـل للاعشــاب",
-    img_logo: ``,
-    description: [
-      `
-        هو موقع لعضرض منتج اعشاب وطلب المنتج ويتم الارسال الي ملف اكسيل google sheets
-        `,
-    ],
-    tools: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
-    img_project: [
-      // "img/Projects/اصيل/1.jpg",
-      "img/Projects/اصيل/2.jpeg",
-      "img/Projects/اصيل/3.jpeg",
-      "img/Projects/اصيل/4.png",
-    ],
-  },
-];
 
 // Show modal in body
 body.innerHTML += dataProjct
@@ -926,19 +907,7 @@ const ProjectsItems = [
     link_Code: "https://github.com/elged194",
     data_target: "#Bank",
   },
-  // Asil
-  {
-    title: "اصـيـل للاعشاب",
-    image: "img/Projects/اصيل/1.jpg",
-    description: `
-        هو موقع لعضرض منتج اعشاب وطلب المنتج ويتم الارسال الي ملف اكسيل google sheets
-          `,
-    link_Live: "",
-    link_Code: "https://asil.space/",
-    data_target: "#asil",
-  },
-];
-
+  
 // --------/ paginate /---------
 let itemsPerPage = 3;
 let currentPage = 1;
@@ -952,7 +921,7 @@ const paginate = (items, pageNumber, itemsPerPage) => {
   // حساب نهاية الصفحة: بداية الصفحة + عدد العناصر لكل صفحة
   const end = start + itemsPerPage;
 
-  // إعادة جزء من العناصر من البداية إلى النهاية (العناصر في الصفحة الحالية)
+  // إعادة جزء من العناصر من البداية إلى النهاية (العناصر ف الصفحة الحالية)
   return items.slice(start, end);
 };
 
